@@ -64,5 +64,3 @@ docker run --name yiban -v /path/to/userData.py:/works/userData.py yibanautosign
 默认Cron对应的时间是 `22:00`, 需要按实际情况修改.  
 使用 `GnuPG` 软件对称加密 `userData.py` 文件, 在 `secrets` 新建 `PassWord` 项, 将密钥存储在 `secrets` 的 `PassWord` 中
 
-# 赞助
-如果觉得项目对你有帮助，可以去我的 [个人博客](https://315490.xyz) 随便一篇文章末尾扫码进行赞助。
